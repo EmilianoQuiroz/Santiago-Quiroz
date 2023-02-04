@@ -13,7 +13,7 @@ Responsive desing
 - Bootstrap
 - Javascript
 
-## Vistas:
+## Desktop:
 
 ![image](https://user-images.githubusercontent.com/78452543/216776150-d0eeea0a-dec4-4124-bafa-62277f16650f.png)
 
@@ -27,6 +27,19 @@ Responsive desing
 
 ![image](https://user-images.githubusercontent.com/78452543/216776249-c8a39b6b-291d-43df-bebb-f3631b35e61d.png)
 
+## Responsive:
+
+![image](https://user-images.githubusercontent.com/78452543/216776368-8c6c46da-66ec-4fdf-a53e-e76031224ad4.png)
+
+![image](https://user-images.githubusercontent.com/78452543/216776399-2056d6a1-c558-4a2f-92dc-fc4736844587.png)
+
+![image](https://user-images.githubusercontent.com/78452543/216776429-942e743e-7ad9-4aed-ab09-c646bbac24fe.png)
+
+![image](https://user-images.githubusercontent.com/78452543/216776466-d19d9388-e3a4-43a9-b890-c5bb4402d1fa.png)
+
+![image](https://user-images.githubusercontent.com/78452543/216776510-0b112efc-f336-43fc-92b2-276abf5aff57.png)
+
+![image](https://user-images.githubusercontent.com/78452543/216776527-234f820c-7d15-41e2-9c27-8232aa26fc50.png)
 
 ### URL del Proyecto:
 
