@@ -1,6 +1,9 @@
 /**************************/
 /*   Estilos Genericos    */
 /**************************/
+/*
+TODO: Eliminar los estilos de las secciones que no se van a utilizar
+*/
 body,
 html {
     width: 100%;
@@ -133,7 +136,7 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	color: #0b36a8; /* debe permanecer aquí debido a la propiedad de color de una etiqueta */
 	text-decoration: none;
 }
 
@@ -152,7 +155,7 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	color: #0b36a8; /* debe permanecer aquí debido a la propiedad de color de una etiqueta*/
 	text-decoration: none;
 }
 
@@ -243,7 +246,7 @@ a:hover {
 
 .form-control-input,
 .form-control-select {
-	display: block; /* needed for proper display of the label in Firefox, IE, Edge */
+	display: block; /* necesario para la correcta visualización de la etiqueta en Firefox, IE, Edge */
 	width: 100%;
 	padding-top: 1.125rem;
 	padding-bottom: 0.125rem;
@@ -254,7 +257,7 @@ a:hover {
 	font-size: 0.875rem;
 	line-height: 1.875rem;
 	transition: all 0.2s;
-	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
+	-webkit-appearance: none; /* elimina la sombra interna en las entradas de formulario en ios safari */
 }
 
 .form-control-select {
@@ -265,7 +268,7 @@ a:hover {
 }
 
 select {
-    /* you should keep these first rules in place to maintain cross-browser behavior */
+    /* debe mantener estas primeras reglas en su lugar para mantener el comportamiento entre navegadores */
     -webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
@@ -278,9 +281,9 @@ select {
 }
 
 .form-control-textarea {
-	display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
+	display: block; /* se utiliza para eliminar una diferencia de espacio inferior entre Chrome e IE/FF */
 	width: 100%;
-	height: 14rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+	height: 14rem; /* utilizado en lugar de filas html para normalizar la altura entre Chrome e IE/FF */
 	padding-top: 1.5rem;
 	padding-left: 1.3125rem;
 	border: 1px solid #cbcbd1;
@@ -295,7 +298,7 @@ select {
 .form-control-select:focus,
 .form-control-textarea:focus {
 	border: 1px solid #a1a1a1;
-	outline: none; /* Removes blue border on focus */
+	outline: none; /* Elimina el borde azul en el foco */
 }
 
 .form-control-input:hover,
@@ -408,7 +411,7 @@ input[type='checkbox'] {
 
 /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
-	animation: fadeDropdown 0.2s; /* required for the fade animation */
+	animation: fadeDropdown 0.2s; /* requerido para la animación de desvanecimiento*/
 }
 
 @keyframes fadeDropdown {
@@ -450,7 +453,7 @@ input[type='checkbox'] {
 	border: none;
 	background-color: #505050;
 }
-/* end of dropdown menu */
+/* fin de dropdown menu */
 
 .navbar .fa-stack {
 	width: 2em;
@@ -522,7 +525,7 @@ input[type='checkbox'] {
 
 
 /*****************/
-/*     About     */
+/*   Sobre Mi    */
 /*****************/
 .basic-1 {
 	padding-top: 7.75rem;
@@ -557,7 +560,7 @@ input[type='checkbox'] {
 } */
 
 /********************/
-/*     Services     */
+/*     Servicios    */
 /********************/
 .basic-2 {
 	padding-top: 7.75rem;
@@ -593,7 +596,7 @@ input[type='checkbox'] {
 
 
 /*******************/
-/*     Details     */
+/*     Detalles    */
 /*******************/
 .split .area-1 {
 	height: 430px;
@@ -622,7 +625,7 @@ input[type='checkbox'] {
 
 
 /********************/
-/*     Projects     */
+/*     Projectos    */
 /********************/
 .basic-3 {
 	padding-top: 7.75rem;
@@ -647,7 +650,7 @@ input[type='checkbox'] {
 	margin-bottom: 1rem;
 }
 
-/* Hover Animation */
+/* Hover */
 .basic-3 .image-container {
 	overflow: hidden;
 	margin-right: auto;
@@ -664,11 +667,11 @@ input[type='checkbox'] {
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
 } 
-/* end of hover animation */
+/* Fin de Hover */
 
 
 /*****************/
-/*     Works     */
+/*  Proyectos    */
 /*****************/
 .basic-4 {
 	padding-bottom: 1rem;
@@ -682,7 +685,7 @@ input[type='checkbox'] {
 	margin-bottom: 1rem;
 }
 
-/* Hover Animation */
+/* Hover */
 .basic-4 .image-container {
 	overflow: hidden;
 	margin-right: auto;
@@ -703,7 +706,7 @@ input[type='checkbox'] {
 
 
 /************************/
-/*     Testimonials     */
+/*     Testimonios      */
 /************************/
 .cards-1 {
 	padding-top: 3rem;
@@ -752,7 +755,7 @@ input[type='checkbox'] {
 
 
 /*********************/
-/*     Questions     */
+/*     Preguntas     */
 /*********************/
 .accordion-1 {
 	padding-top: 7.75rem;
@@ -809,7 +812,7 @@ input[type='checkbox'] {
 
 
 /*******************/
-/*     Contact     */
+/*     Contacto    */
 /*******************/
 .form-1 {
 	padding-top: 7.75rem;
@@ -888,7 +891,7 @@ input[type='checkbox'] {
 
 
 /******************************/
-/*     Back To Top Button     */
+/* Boton para subir al inicio */
 /******************************/
 a.back-to-top {
 	position: fixed;
@@ -910,7 +913,7 @@ a:hover.back-to-top {
 
 
 /***********************/
-/*     Extra Pages     */
+/*    Otras paginas    */
 /***********************/
 .ex-header {
 	padding-top: 8.5rem;
@@ -977,30 +980,30 @@ a:hover.back-to-top {
 		padding-top: 11rem;
 		padding-bottom: 9rem;
 	}
-	/* end of header */
+	/* fin de header */
 
 
-	/* Services */
+	/* Servicios */
 	.basic-2 .text-box {
 		padding-right: 2.125rem;
 		padding-left: 2.125rem;
 	}
-	/* end of services */
+	/* fin de servicios */
 
 
-	/* Extra Pages */
+	/* Otras paginas */
 	.ex-basic-1 .text-box {
 		padding: 1.75rem 2rem 0.875rem 2rem;
 	}
-	/* end of extra pages */
+	/* fin de otras paginas */
 }
-/* end of min-width 768px */
+/* fin de min-width 768px */
 
 
 /* Min-width 992px */
 @media (min-width: 992px) {
 	
-	/* General Styles */
+	/* Estilos generales */
 	.h2-heading {
 		width: 35.25rem;
 		margin-right: auto;
@@ -1012,10 +1015,10 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-	/* end of general styles */
+	/* fin de estilos generales */
 
 
-	/* Navigation */
+	/* Navegacion */
 	.navbar {
 		padding-top: 1.75rem;
 		background-color: transparent;
@@ -1075,7 +1078,7 @@ a:hover.back-to-top {
 		margin-right: 0;
 		margin-left: 0.25rem;
 	}
-	/* end of navigation */
+	/* fin de navegacion */
 
 
 	/* Header */
@@ -1084,10 +1087,10 @@ a:hover.back-to-top {
 		padding-bottom: 14rem;
 		text-align: left;
 	}
-	/* end of header */
+	/* fin de header */
 
 
-	/* Details */
+	/* Detailles */
 	.split {
 		height: 760px;
 	}
@@ -1109,10 +1112,10 @@ a:hover.back-to-top {
 		width: 400px;
 		margin-left: 3rem;
 	}
-	/* end of details */
+	/* fin de detalles */
 
 
-	/* Testimonials */
+	/* Testimonios */
 	.cards-1 .card {
 		display: inline-block;
 		width: 290px;
@@ -1140,7 +1143,7 @@ a:hover.back-to-top {
 	.cards-1 .details img {
 		margin-right: 1.125rem;
 	}
-	/* end of testimonials */
+	/* Fin de testimonios */
 
 
 	/* Accordion */
@@ -1149,19 +1152,19 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-	/* end of accordion */
+	/* fin de accordion */
 
 
-	/* Contact */
+	/* Contacto */
 	.form-1 form {
 		width: 790px;
 		margin-right: auto;
 		margin-left: auto;
 	}
-	/* end of contact */
+	/* fin de contacto */
 
 
-	/* Extra Pages */
+	/* Otras paginas */
 	.ex-cards-1 .card {
 		display: inline-block;
 		width: 296px;
@@ -1172,27 +1175,27 @@ a:hover.back-to-top {
 		margin-right: 1rem;
 		margin-left: 1rem;
 	}
-	/* end of extra pages */
+	/* fin de otras paginas */
 }
-/* end of min-width 992px */
+/* fin de min-width 992px */
 
 
 /* Min-width 1200px */
 @media (min-width: 1200px) {
 
-	/* General Styles */
+	/* Estilos generales */
 	.h1-large {
 		font-size: 3.75rem;
 		line-height: 4.625rem;
 	}
-	/* end of general styles */
+	/* fin de estilos generales */
 
 
-	/* Navigation */
+	/* Navegacion  */
 	.navbar .container {
 		max-width: 1330px;
 	}
-	/* end of navigation */
+	/* fin de navegacion */
 
 
 	/* Header */
@@ -1200,10 +1203,10 @@ a:hover.back-to-top {
 		padding-top: 18.25rem;
 		padding-bottom: 17.25rem;
 	}
-	/* end of header */
+	/* fin de header */
 
 
-	/* About */
+	/* Sobre mi */
 	.basic-1 .text-container.first {
 		margin-right: 2rem;
 	}
@@ -1216,10 +1219,10 @@ a:hover.back-to-top {
 	.basic-1 .text-container.third {
 		margin-left: 2rem;
 	}
-	/* end of about */
+	/* fin de la seccion sobre mi */
 
 
-	/* Details */
+	/* Detalles */
 	.split {
 		height: 700px;
 	}
@@ -1228,10 +1231,10 @@ a:hover.back-to-top {
 		width: 460px;
 		margin-left: 5rem;
 	}
-	/* end of details */
+	/* Fin de detalles */
 
 
-	/* Testimonials */
+	/* Testimonios */
 	.cards-1 .card {
 		width: 338px;
 	}
@@ -1240,10 +1243,10 @@ a:hover.back-to-top {
 		margin-right: 2.625rem;
 		margin-left: 2.625rem;
 	}
-	/* end of testimonials */
+	/* Fin de testimonios */
 	
 
-	/* Extra Pages */
+	/* Otras paginas */
 	.ex-cards-1 .card {
 		width: 336px;
 	}
@@ -1252,6 +1255,6 @@ a:hover.back-to-top {
 		margin-right: 2.875rem;
 		margin-left: 2.875rem;
 	}
-	/* end of extra pages */
+	/* Fin de otras paginas */
 }
-/* end of min-width 1200px */
+/* Fin de  min-width 1200px */
